@@ -1,0 +1,56 @@
+body { 
+  background: url(boat.gif) center center no-repeat fixed; 
+  webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#content {
+	top: 0;
+	color: #fff;
+}
+
+.info { 
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  width: 33%; 
+  background: rgba(0,0,0,0.3); 
+  color: #fff; 
+  padding: 1rem; 
+  font-family: Avenir, Helvetica, sans-serif; 
+}
+
+.info h1 { 
+  font-size: 2rem; 
+  font-weight: 700; 
+  margin-top: 0; 
+  line-height: 1.2;
+}
+
+.info a { 
+  display: block; 
+  color: #fff; 
+  text-decoration: none; 
+  background: rgba(0,0,0,0.5); 
+  transition: .6s background; 
+  border-bottom: none; 
+  margin: 1rem auto; 
+  text-align: center;
+}
+
+@media all and (max-width: 600px) {
+  .info { 
+    width: 50%; 
+    padding: .5rem; 
+  }
+  .info h1 { 
+    margin-bottom: .2rem; 
+  }
+}
+@media all and (max-width: 500px) {
+  .info .acronym { 
+    display: none;
+  }
+}
